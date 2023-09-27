@@ -13,7 +13,7 @@ Ce projet Symfony permet de gérer des personnes (nom, prénom, date de naissanc
 1. Clonez ce dépôt Git :
 
    ```shell
-   git clone git clone https://github.com/votre-utilisateur/projet-symfony-personnes.git
+   git clone https://github.com/mohabadiane1511/persona.git
 
 
    ```
