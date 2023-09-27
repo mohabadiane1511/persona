@@ -58,7 +58,7 @@ class PersonneController extends AbstractController
         return $this->json(['message' => 'Personne enregistrée avec succès'], 201);
     }
 
-    #[Route('/api/listPersonnes', name: 'app_personne', methods: ['GET'])]
+    #[Route('/api/listPersonnes', name: 'app_personne_add', methods: ['GET'])]
     public function listerPersonnes(EntityManagerInterface $entityManagerInterface)
     {
         $personnes = $entityManagerInterface->getRepository(Personne::class)->findBy([], ['nom' => 'ASC']);
